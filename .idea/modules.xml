@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/POO-basico/ClasseObjeto/ClasseObjeto.iml" filepath="$PROJECT_DIR$/POO-basico/ClasseObjeto/ClasseObjeto.iml" />
       <module fileurl="file://$PROJECT_DIR$/POO-basico/Encapsulamento/Encapsulamento.iml" filepath="$PROJECT_DIR$/POO-basico/Encapsulamento/Encapsulamento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TodoParte/GestaoDisciplinas/GestaoDisciplinas.iml" filepath="$PROJECT_DIR$/TodoParte/GestaoDisciplinas/GestaoDisciplinas.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PARADIGMAS-PROG-I.iml" filepath="$PROJECT_DIR$/.idea/PARADIGMAS-PROG-I.iml" />
       <module fileurl="file://$PROJECT_DIR$/TodoParte/TodoParte.iml" filepath="$PROJECT_DIR$/TodoParte/TodoParte.iml" />
     </modules>

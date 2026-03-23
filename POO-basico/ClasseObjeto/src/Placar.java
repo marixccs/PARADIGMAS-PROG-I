@@ -1,4 +1,4 @@
-public class Placar {
+    public class Placar {
     public String nomeTimeCasa;
     public String nomeTimeVisitante;
     public int pontosCasa;
@@ -19,7 +19,6 @@ public class Placar {
             System.out.println("Tipo de ponto inválido.");
             return;
         }
-
         if (time.equals("casa")) {
             this.pontosCasa += tipo;
             System.out.println("Pontos para o time da casa: +" + tipo);
