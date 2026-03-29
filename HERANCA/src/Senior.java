@@ -19,10 +19,9 @@ public class Senior extends Desenvolvedor {
 
     @Override
     public String toString() {
-        return "Senior{" +
+        return "Senior - " +
                 super.toString() +
-                "verbaLideranca=" + verbaLideranca +
-                '}';
+                "verba Lideranca: R$" + verbaLideranca + ", ";
     }
 
     @Override

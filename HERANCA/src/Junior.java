@@ -20,10 +20,9 @@ public class Junior extends Desenvolvedor { //extends é utilizada para dizer qu
 
     @Override // anulação de método herdeiro
     public String toString() {
-        return "Junior{" +
+        return "Junior - " +
                 super.toString() +
-                "mentor: " + this.mentor;
-
+                "mentor: " + this.mentor + ", ";
         // sempre que chamar o toString do filho deve chamar o toString do pai.
     }
 

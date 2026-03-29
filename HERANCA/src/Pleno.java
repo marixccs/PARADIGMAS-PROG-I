@@ -20,10 +20,9 @@ public class Pleno extends Desenvolvedor{
 
     @Override
     public String toString() {
-        return "Pleno{" +
+        return "Pleno - " +
                 super.toString() +
-                "projEntr=" + projEntr +
-                '}';
+                "projetos Entregues: " + projEntr + ", ";
     }
     @Override
     public void codar(){

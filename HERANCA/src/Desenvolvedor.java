@@ -38,16 +38,16 @@ public class Desenvolvedor {
 
     @Override //anula o método toString herdado da classe pai Object (a gente herda toda vez que faz a classe)
     public String  toString() {
-        return "Desenvolvedor{" +
+        return "Desenvolvedor {" +
                 "nome='" + nome + '\'' +
-                ", linguagem='" + linguagem + '\'' +
-                ", salarioBase=" + salarioBase +
-                '}';
+                ", linguagem: " + linguagem + '\'' +
+                ", salarioBase: R$" + salarioBase + ", ";
     }
 
     public void codar(){
         System.out.println("Desenvolvedor escrevendo código.");
     }
+
     public float calcularBonus(){
         return this.salarioBase * 0.05f;
     }
