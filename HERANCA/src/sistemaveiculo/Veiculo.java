@@ -13,6 +13,14 @@ public class Veiculo {
         this.velocidade = velocidade;
     }
 
+    public void mover(){
+        System.out.println("Veículo se movendo...");
+    }
+
+    public void abastecer(){
+        System.out.println("Veículo reabastecendo...");
+    }
+
     public String getMarca() {
         return marca;
     }
@@ -42,12 +50,6 @@ public class Veiculo {
         return  "{Veiculo - marca: '" + marca + '\'' +
                 ", modelo: '" + modelo + '\'' +
                 ", velocidade: " + velocidade + "km/h, ";
-    }
-    public void mover(){
-        System.out.println("Veículo se movendo...");
-    }
-    public void abastecer(){
-        System.out.println("Veículo reabastecendo...");
     }
 }
 

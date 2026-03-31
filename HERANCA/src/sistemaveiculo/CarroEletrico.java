@@ -21,14 +21,6 @@ public class CarroEletrico extends Veiculo {
     }
 
     @Override
-    public String toString() {
-        return "Carro Eletrico: " +
-                super.toString() +
-                "Autonomia da Bateria = " + autonomiaBateria + "km/carga" +
-                '}';
-    }
-
-    @Override
     public void mover() {
         System.out.println("Carro elétrico movendo-se silenciosamente.");
     }
@@ -37,4 +29,14 @@ public class CarroEletrico extends Veiculo {
     public void abastecer() {
         System.out.println("Recarregando bateria em posto de carga rápida...");
     }
+
+    @Override
+    public String toString() {
+        return "Carro Eletrico: " +
+                super.toString() +
+                "Autonomia da Bateria = " + autonomiaBateria + "km/carga" +
+                '}';
+    }
+
+
 }

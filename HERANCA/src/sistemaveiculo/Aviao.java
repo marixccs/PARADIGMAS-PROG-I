@@ -21,19 +21,21 @@ public class Aviao extends Veiculo {
     }
 
     @Override
-    public String toString() {
-        return "Aviao " +
-                super.toString() +
-                " altitude = " + altitude + "m}";
-    }
-
-    @Override
     public void mover() {
-        System.out.println("Avião voando a " + velocidade + "km/h a " + this.altitude + " metros.");
+        System.out.println("Avião voando a " + this.velocidade + "km/h a " + this.altitude + " metros.");
     }
 
     @Override
     public void abastecer() {
         System.out.println("Abastecendo com querosene de aviação...");
     }
+
+    @Override
+    public String toString() {
+        return "Aviao " +
+                super.toString() +
+                " altitude = " + altitude + "m}";
+    }
+
+
 }
